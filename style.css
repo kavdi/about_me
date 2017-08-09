@@ -1,0 +1,16 @@
+#mainBanner{text-align: center;
+  color: white;
+  font-style:oblique;
+}
+
+.box{background-color: white;
+background-position: center;
+opacity:0.5;
+
+}
+
+p{color:black;
+align-content:center;
+padding-left:50px;
+padding-right: 90px;
+}

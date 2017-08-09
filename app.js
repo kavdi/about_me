@@ -1,6 +1,6 @@
 'use strict';
 
-alert ('Hey there! Lets play a small guessing game so you can get to know me a little better! Please respond with Yes or No answeres.');
+alert ('Hey there! Lets play a small guessing game so you can get to know me a little better! Please respond with Yes or No answer s.');
 var a = 'I have visited more than 12 different countries.';
 var ask = prompt(a);
 var res = ask.toUpperCase();
