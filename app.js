@@ -1,5 +1,10 @@
 'use strict';
 
+alert('Hey there! My name is Kavdi. Welcome to my page About ME!!!!');
+var questionName = prompt('what is your name?');
+console.log('Hi ' + questionName + '. Let\'s see how well you know me.');
+alert('Hi ' + questionName + '. Let\'s see how well you know me.');
+
 var qlog = [];
 console.log (qlog);
 var answerlog = [];
