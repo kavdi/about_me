@@ -1,14 +1,20 @@
-// 'use strict';
-//
+ //'use strict';
+
+// var qlog = [];
+// console.log (qlog);
+// var answerlog = [];
+// console.log (answerlog);
 // alert ('Hey there! Lets play a small guessing game so you can get to know me a little better! Please respond with Yes or No answer s.');
 // var a = 'I have visited more than 12 different countries.';
+// console.log (a);
+// qlog.push (a);
 // var ask = prompt(a);
 // var res = ask.toUpperCase();
-// console.log (res);
 // if (res === 'YES' || res === 'Y') {alert ('Correct!');}
 // else if (res === 'NO' || res === 'N') {alert ('You are incorrect.');}
 // else {alert ('YES OR NO ANSWERS ONLY!');}
 // console.log (res);
+// answerlog.push (res);
 //
 // var a = 'Spanish is my first language.';
 // var ask = prompt(a);
@@ -60,3 +66,6 @@
 //     alert ('You are correct! Good guess!');
 //     break;}
 // }
+
+// var a = 'Can you guess what other countries I have lived in besides the USA?';
+// var countries = ['Nicaragua','Germany','Argentina','Brazil','Costa Rica','Panama','Belize','Honduras','France'];
