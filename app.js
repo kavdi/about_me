@@ -4,6 +4,8 @@
 // console.log (qlog);
 // var answerlog = [];
 // console.log (answerlog);
+// var goodanswers = []
+// **console.log (goodanswers)**
 // alert ('Hey there! Lets play a small guessing game so you can get to know me a little better! Please respond with Yes or No answer s.');
 // var a = 'I have visited more than 12 different countries.';
 // console.log (a);
@@ -67,5 +69,24 @@
 //     break;}
 // }
 
-// var a = 'Can you guess what other countries I have lived in besides the USA?';
-// var countries = ['Nicaragua','Germany','Argentina','Brazil','Costa Rica','Panama','Belize','Honduras','France'];
+//  var a = 'Can you guess what other countries I have lived in besides the USA?';
+//  console.log (a);
+//  qlog.push (a);
+//  var countries = ['Nicaragua','Germany','Argentina','Brazil','Costa Rica','Panama','Belize','Honduras','France'];
+//  var opp = 6;
+//  for (i = 0; i < opp; i++) {
+//  var ask = prompt (a);
+//  var res = ask.toUpperCase();
+//  console.log (res);
+//  answerlog.push (res);}
+//  if (res === countries[0] || res === countries [1] || res === countries [2] || res === countries [3]
+// || res === countries [4] || res === countries [5]
+// || res === countries [6] || res === countries [7] || res === countries [8])
+// {
+//   goodanswers++;
+// alert ('Good guess! You\'re correct.');
+// break;
+// }
+// else if (i < (opp - 1))
+// {(alert ('Nope! Try again. You have' + ((opp - 1) - i) + 'turns left.');}
+// else { alert ('Better luck next time.');}
