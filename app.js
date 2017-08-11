@@ -1,5 +1,10 @@
 'use strict';
 
+alert('Hey there! My name is Kavdi. Welcome to my page About ME!!!!');
+var questionName = prompt('what is your name?');
+console.log('Hi ' + questionName + '. Let\'s see how well you know me.');
+alert('Hi ' + questionName + '. Let\'s see how well you know me.');
+
 var qlog = [];
 console.log (qlog);
 var answerlog = [];
@@ -73,6 +78,7 @@ for (var i = 0; i < 4; i++){
     alert('That is not a number.');
   }
 }
+
 for (i = 0; i < 6; i++) {
   var a = 'Can you guess what other countries I have lived in besides the USA?';
   console.log (a);
@@ -82,13 +88,13 @@ for (i = 0; i < 6; i++) {
   console.log (ask);
   answerlog.push (ask);
   if (countries.includes(ask.toUpperCase()))
- {alert ('Good guess! You\'re correct. ');goodanswers++;
- i += 6;
-}else if (i < (6 - 1))
- {alert ('Nope! Try again. You have' + ((6 - 1) - i) + 'turns left.');}
+ {alert ('Good guess! You\'re correct. The Countries that I have lived in are ' + countries.join(', ') + '.');goodanswers++;i += 6;
+  }else if (i < (6 - 1))
+   {alert ('Nope! Try again. You have' + ((6 - 1) - i) + 'turns left.');}
 
-else alert ('Better luck next time.');
+  else alert ('Better luck next time.');
 }
 
 var finished = 'Thank you for playin! You got ' + goodanswers + ' out of 7 questions correct!';
 console.log (finished);
+alert(finished);
