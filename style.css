@@ -1,20 +1,41 @@
 body {
   background-image: url(binary_background.jpg);
+
 }
 
-#mainBanner{text-align: center;
+#heading{text-align: center;
   color: white;
-  font-style:oblique;
+  font-style: normal;
+  font-size: 300%;
+  font-family: fantasy;
+  text-align: left;
 }
 
-.box{background-color: white;
-background-position: center;
-opacity:0.5;
-
+h2{
+  background-image: url(black_hole.jpg);
+  background-position: center;
 }
 
-p{color:black;
-align-content:center;
-padding-left:50px;
-padding-right: 90px;
+.box{
+  background-color: white;
+  background-position: center;
+  opacity:0.5;
+  text-align: left;
+  border-spacing: 10px;
+  border: 5px green;
+}
+
+.difbox{
+  clear: both;
+  background-image: url(black_hole.jpg);
+  color:white;
+  text-align: center;
+  border-top: 100px;
+}
+
+p{
+  color:black;
+  align-content:center;
+  padding-left:50px;
+  padding-right: 90px;
 }
