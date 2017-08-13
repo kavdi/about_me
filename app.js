@@ -1,3 +1,4 @@
+/*
 'use strict';
 
 alert('Hey there! My name is Kavdi. Welcome to my page About ME!!!!');
@@ -123,3 +124,4 @@ questionSeven();
 var finished = 'Thank you for playin! You got ' + goodanswers + ' out of 7 questions correct!';
 alert (finished);
 console.log (finished);
+/*

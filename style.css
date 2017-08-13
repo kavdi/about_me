@@ -1,3 +1,7 @@
+body {
+  background-image: url(binary_background.jpg);
+}
+
 #mainBanner{text-align: center;
   color: white;
   font-style:oblique;
