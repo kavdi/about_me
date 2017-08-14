@@ -1,4 +1,3 @@
-/*
 'use strict';
 
 alert('Hey there! My name is Kavdi. Welcome to my page About ME!!!!');
@@ -121,7 +120,6 @@ questionFive();
 questionSix();
 questionSeven();
 
-var finished = 'Thank you for playin! You got ' + goodanswers + ' out of 7 questions correct!';
+var finished = 'Thank you for playing! You got ' + goodanswers + ' out of 7 questions correct!';
 alert (finished);
 console.log (finished);
-/*
